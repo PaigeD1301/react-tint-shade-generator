@@ -75,15 +75,6 @@ input {
   background-color: #f0c646;
   box-shadow: 0 0 5px #f0c646, 0 0 10px #f0c646;
 }
-@media screen and (max-width: 576px) {
-  .container h3 {
-    font-size: 1rem;
-  }
-  input,
-  .btn {
-    font-size: 0.85rem;
-  }
-}
 input.error {
   outline: 2px solid darkred;
 }
@@ -101,6 +92,14 @@ input.error {
   }
 }
 @media screen and (max-width: 576px) {
+  .container h3 {
+    font-size: 1rem;
+  }
+  input,
+  .btn {
+    font-size: 0.85rem;
+    width: 7rem;
+  }
   .colors {
     padding-top: 1rem;
   }
