@@ -1,3 +1,3 @@
-Tint and shade generator.
+Tint and shade generator: [Demo](https://tintandshadegenerator.netlify.app/)
 
-Library: https://github.com/noeldelgado/values.js
+Library used: https://github.com/noeldelgado/values.js
