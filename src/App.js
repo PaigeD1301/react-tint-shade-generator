@@ -39,7 +39,7 @@ function App() {
             className={`${error ? 'error' : null}`}
           />
         </form>
-        <button className='btn' type='submit'>
+        <button className='btn' type='submit' onClick={handleSubmit}>
           Generate
         </button>
       </section>
